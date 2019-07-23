@@ -4,7 +4,7 @@ The scripts herein detail the commands utilised for the analyses and figures des
 The sample scripts are as follows:
 
 1) MAGMA_automation.py:
-  Script for performing the MAGMA gene-based and set-based association, This script assumed MAGMA is either installed in the directory it is run from or accessible as PATH variable. Requires the following command line inputs:
+  Script for performing the MAGMA gene-based and set-based association, This script assumed MAGMA is either installed in the directory it is run from or accessible as PATH variable. Requires the following command line inputs: \n
  --gwasfile, GWAS summary statistics in the following format - SNP, CHR, BP, P
  --geneloc, Gene location file - ID, BP1, BP2
  --phenotype, GWAS phenotype name
