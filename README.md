@@ -8,7 +8,8 @@ The sample scripts are as follows:
   
  --gwasfile, GWAS summary statistics in the following format - SNP, CHR, BP, P  
  --geneloc, Gene location file - ID, BP1, BP2  
- --phenotype, GWAS phenotype name . 
+ --phenotype, GWAS phenotype name .  
+ 
  --bfile, Reference population plink binary fileset - .bed, .bim + .fam . 
  --samplesize, Sample size which GWAS performed on - cases + controls . 
  --genesets, Input pathways in standard MSigDB format, see MAGMA manual for further clarification  
