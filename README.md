@@ -6,12 +6,11 @@ The sample scripts are as follows:
 1) MAGMA_automation.py:
   Script for performing the MAGMA gene-based and set-based association, This script assumed MAGMA is either installed in the directory it is run from or accessible as PATH variable. Requires the following command line inputs:  
   
- --gwasfile, GWAS summary statistics in the following format - SNP, CHR, BP, P  
- --geneloc, Gene location file - ID, BP1, BP2  
- --phenotype, GWAS phenotype name .  
- 
- --bfile, Reference population plink binary fileset - .bed, .bim + .fam . 
- --samplesize, Sample size which GWAS performed on - cases + controls . 
+ --gwasfile, GWAS summary statistics in the following format - SNP, CHR, BP, P   <br />
+ --geneloc, Gene location file - ID, BP1, BP2   <br />
+ --phenotype, GWAS phenotype name   <br />
+ --bfile, Reference population plink binary fileset - .bed, .bim + .fam  <br />
+ --samplesize, Sample size which GWAS performed on - cases + controls  <br />
  --genesets, Input pathways in standard MSigDB format, see MAGMA manual for further clarification  
 Please refer to the MAGMA manual for more information
 
