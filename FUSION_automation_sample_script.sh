@@ -10,5 +10,5 @@ Rscript FUSION.assoc_test.R \
 --weights ./WEIGHTS/CMC.BRAIN.RNASEQ.pos \
 --weights_dir ./WEIGHTS/ \
 --ref_ld_chr ./LDREF/1000G.EUR. \
---chr $i --out ~/Desktop/Pairwise_SZ_2018_meta/TWAS/SZ_${I}_DLPFC.txt;
+--chr $i --out ~/Desktop/Pairwise_SZ_2018_meta/TWAS/SZ_${i}_DLPFC.txt;
 done
